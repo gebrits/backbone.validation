@@ -7,12 +7,10 @@
     "url": "http://thedersen.com/"
   },
   "homepage": "http://thedersen.com/projects/backbone-validation",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://thedersen.mit-license.org/"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://thedersen.mit-license.org/"
+  }],
   "bugs": {
     "url": "http://github.com/thedersen/backbone.validation/issues"
   },
@@ -29,8 +27,8 @@
   },
   "main": "./dist/backbone-validation-amd.js",
   "dependencies": {
-    "backbone": ">=1.0.0",
-    "underscore": ">=1.4.3"
+    "backbone": "git+https://git@github.com/gebrits/backbone.git#1db48e6234fd321ee1e222b383de721ff6b0a95a",
+    "lodash": "^3.1.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

@@ -124,7 +124,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['rig', 'jshint', 'buster', 'uglify']);
+  grunt.registerTask('default', ['rig', 'jshint', 'uglify']);
   grunt.registerTask('publish', ['docco', 'shell']);
 
   grunt.loadNpmTasks('grunt-contrib-jshint');

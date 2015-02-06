@@ -1,0 +1,26 @@
+{
+  "name": "backbone",
+  "main": "backbone.js",
+  "dependencies": {
+    "lodash": "~3.1.0"
+  },
+  "ignore": [
+    "docs",
+    "examples",
+    "test",
+    "*.yml",
+    "*.html",
+    "*.ico",
+    "*.md",
+    "CNAME"
+  ],
+  "homepage": "https://github.com/gebrits/backbone",
+  "_release": "1db48e6234",
+  "_resolution": {
+    "type": "commit",
+    "commit": "1db48e6234fd321ee1e222b383de721ff6b0a95a"
+  },
+  "_source": "https://github.com/gebrits/backbone.git",
+  "_target": "1db48e6234fd321ee1e222b383de721ff6b0a95a",
+  "_originalSource": "https://github.com/gebrits/backbone.git"
+}
